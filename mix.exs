@@ -1,4 +1,4 @@
-defmodule NervesSystemRpi4.MixProject do
+defmodule NervesSystemRpi4Fr201.MixProject do
   use Mix.Project
 
   @github_organization "sundaypower"
