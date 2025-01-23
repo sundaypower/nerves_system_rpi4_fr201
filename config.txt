@@ -8,7 +8,7 @@ dtoverlay=spi4-1cs
 dtoverlay=spi3-1cs,cs0_pin=24
 dtoverlay=i2c5,pins_12_13=on,baudrate=40000
 # User configurable settings
-include usercfg.txt
+#include usercfg.txt
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
 # Additional overlays and parameters are documented
@@ -31,7 +31,7 @@ disable_overscan=1
 arm_boost=1
 #to enable tpm SPI
 dtoverlay=spi6-1cs,cs0_spidev=off
-dtoverlay=tpm-nuvoton
+#dtoverlay=tpm-nuvoton
 # Enable external antenna
 dtparam=ant2
 # Config settings specific to arm64
